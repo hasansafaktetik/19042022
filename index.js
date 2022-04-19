@@ -7,7 +7,7 @@ app.use(bodyParser.json())
 
 app.get('/api/hello', async (req, res) => {
 
-    res.send('Hello World')
+    res.send('Hi Guys! It is my first Azure and GitHub Test!!')
 })
 
 app.get('/api/env', async (req, res) => {
@@ -21,7 +21,7 @@ app.get('/api/env', async (req, res) => {
 
 app.get('/api/merhaba', (req, res) => {
 
-    res.send('Merhaba Dünyalı')
+    res.send('Merhaba Dünyalı, Nasılsın?')
 })
 
 app.post('/api/name', (req, res) => {
